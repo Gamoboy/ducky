@@ -12,5 +12,3 @@ Invoke-WebRequest -Uri $githubUrl -OutFile $destinationPath
 Set-ItemProperty -Path $autorunRegistryPath -Name $autorunRegistryName -Value $autorunScriptCommand
 
 Invoke-Expression -Command $destinationPath
-
-Pause
