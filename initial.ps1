@@ -13,3 +13,5 @@ $settings = New-ScheduledTaskSettingsSet
 Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Settings $settings
 
 Invoke-Expression -Command $destinationPath
+
+Pause
