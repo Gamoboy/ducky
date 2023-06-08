@@ -1,1 +1,0 @@
-set-itemproperty -path "HKCU:Control Panel\Desktop" -name WallPaper -value https://github.com/Gamoboy/ducky/blob/b8696cdf88d590b7dd4da0df39739097fff3854b/giphy.gif
